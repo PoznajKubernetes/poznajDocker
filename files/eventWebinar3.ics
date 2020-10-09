@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+DTSTAMP:20191103T193618Z
+ORGANIZER;CN=Piotrek:MAILTO:piotrek@poznajkubernetes.pl
+STATUS:CONFIRMED
+UID:1572809778poznajkubernetes
+SEQUENCE:0
+DTSTART:20191104T190000Z
+DTEND:20191104T210000Z
+SUMMARY:Wieczór z Kubernetes
+DESCRIPTION:Link do YouTube: https://k8s.buzz/live-youtube\nLink do Facebook: https://k8s.buzz/live-facebook\n\n
+X-ALT-DESC;FMTTYPE=text/html:Link do YouTube: https://k8s.buzz/live-youtube<br>Link do Facebook: https://k8s.buzz/live-facebook<br><br>
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+END:VALARM
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
