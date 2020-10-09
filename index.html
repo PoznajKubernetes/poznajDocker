@@ -21,7 +21,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"
       rel="stylesheet"
     />
-    <link href="css/style.css?v=18" rel="stylesheet" />
+    <link href="css/style.css?v=19" rel="stylesheet" />
 
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
     <link rel="icon" href="images/favicon.png" type="image/x-icon" />
@@ -38,11 +38,18 @@
     <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
 
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-PXH5457');</script>
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-PXH5457");
+    </script>
     <!-- End Google Tag Manager -->
     <!-- Facebook Pixel Code -->
     <!--script>
@@ -82,7 +89,12 @@
             <div class="outer-container header-container">
               <!--Logo Box-->
               <div class="logo-box">
-                <div class="logo"><img src="images/poznajdocker-logo.png" alt="Poznaj Kubernetes"></div>
+                <div class="logo">
+                  <img
+                    src="images/poznajdocker-logo.png"
+                    alt="Poznaj Kubernetes"
+                  />
+                </div>
               </div>
 
               <!--Nav Outer-->
@@ -127,47 +139,140 @@
                 <img src="images/shape-left-3.svg" alt="" />
               </figure>
             </div>
-            <h1>Mikroserwisy w Docker</h1>
+            <h1>Program Poznaj Docker</h1>
           </div>
           <div class="row clearfix">
             <div class="clearfix desc-text col-md-6">
-              <h2>Jeżeli interesuje Cię</h2>
-              <ul class="list-group benefits-list-header">
-                <li>budowa i hostowanie aplikacji w Docker w zależności od potrzeb</li>
-                <li>projektowanie usług tak by spełniały HA</li>
-                <li>wydajność i obsługa baz danych, by było dobrze i tanio</li>
-                <li>diagnostyka i logowanie - tak by widzieć niezbędne informacje</li>
-                <li>szybkie wdrażanie i testowanie, a co najważniejsze detekcja problemów</li>
-              </ul>
               <p>
-                to trafiłeś idealnie, bo nas też! <br />
-                Co tydzień albo dwa na liście mailowej dzielimy się naszymi
-                pomysłami i gotowymi rozwiązaniami.
+                <br />
+                <strong>Najlepszy sposób, byś zyskał solidne podstawy</strong> w
+                technologiach opartych o <strong>kontenery</strong> i w
+                szczególności o produkty firmy <strong>Docker</strong>. Ta
+                wiedza pozwoli Ci
+                <strong>zaskoczyć niejednego „eksperta”</strong>.
               </p>
+              <p>
+                Cena
+                <strong style="font-size: 30px"><s>499 PLN</s> 399 PLN</strong>
+              </p>
+              <div>Do końca PRZEDSPRZEDAŻY pozostało</div>
+              <h2 class="h2-big">
+                <span id="countdown2">22 pażdziernika 22:22</span>
+              </h2>
+              <a
+                href="https://poznajkubernetes.pl/dolacz"
+                class="theme-btn btn-style-one"
+                >KUP SZKOLENIE‼️<span class="icon ti-arrow-circle-right"></span
+              ></a>
             </div>
             <div class="clearfix desc-text col-md-6">
-              <p>Zainteresowany? To nie czekaj dłużej tylko zapisz się już TERAZ!
-                <br/>
-                <form
-                  action="https://app.convertkit.com/forms/1440273/subscriptions"
-                  method="post"
-                  data-sv-form="1440273"
-                  data-uid="4fb0d26148"
-                  data-format="inline"
-                  data-version="5">
+              <h2>FAQ</h2>
+              <ul class="list-group benefits-list-header">
+                <li>Wystawaimy faktury VAT</li>
+                <li>
+                  Gwarancja zwrotu: <strong>30 dni na zwrot</strong> od startu
+                  kursu
+                </li>
+                <li>
+                  Jeżeli masz pytania napisz do nas na
+                  <a href="mailto:kontakt@poznajkubernetes.pl"
+                    >kontakt@poznajkubernetes.pl</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
 
-                  <div class="form-group">
-                    <input name="email_address" type="email" class="form-control" aria-describedby="emailHelp" placeholder="Twój email" required />
-                    <small id="emailHelp" class="form-text text-muted">Obiecujemy zachować go dla siebie!</small>
-                  </div>
-                  <div class="form-group">
-                    <input name="fields[first_name]" type="text" class="form-control" placeholder="Imię lub nick" required />
-                    <small id="nameHelp" class="form-text text-muted">Jeżeli masz ochotę to możesz wpisać: Władca wszechświata, król galaktyk.</small>
-                  </div>
-                  <button type="submit" class="btn theme-btn btn-style-one">Chcę to!</button>
-                </form>
-                <br/>
-                <small>Polityka prywatności - <a href="policy.html">więcej</a></small></p>
+      <section class="products-section" id="agenda">
+        <div class="auto-container">
+          <!--Heading-->
+          <div class="sec-title">
+            <div class="icon">
+              <figure class="image">
+                <img src="images/shape-left-3.svg" alt="" />
+              </figure>
+            </div>
+            <h2>Agenda, czyli co będzie w środku</h2>
+            <div class="clearfix desc-text">
+              <ul class="list-group module-list-header col-md-6 col-xs-12">
+                <li>
+                  1. Podstawy
+                  <ul>
+                    <li>Wirtualne maszyny, deployment, problemy</li>
+                    <li>
+                      Konteneryzacja skad sie wziela, rozwiązanie pewnych
+                      problemów
+                    </li>
+                    <li>Porównanie aplikacji na kontenerze z vm</li>
+                    <li>jakie są dostępne systemy konteneryzacji</li>
+                    <li>Dlaczego docker?</li>
+                    <li>Dlaczego Swarm umiera?</li>
+                    <li>linux vs windows</li>
+                    <li>Wizualizacja warstw docker i najlepsze praktyki</li>
+                  </ul>
+                </li>
+                <li>
+                  2. Budowanie
+                  <ul>
+                    <li>Konstrukcja kontenera (obraz, kontener, dsl)</li>
+                    <li>Skad brac obrazy</li>
+                    <li>Jak je budować</li>
+                    <li>Najlepsze praktyki</li>
+                    <li>Budowanie poza Docker - jak kiedy i dlaczego</li>
+                  </ul>
+                </li>
+                <li>
+                  3. Uruchamianie kontenerów
+                  <ul>
+                    <li>Gdzie możemy ich użyć?</li>
+                    <li>Jak po co i dlaczego :)</li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="list-group module-list-header col-md-6 col-xs-12">
+                <li>
+                  4. Docker Compose
+                  <ul>
+                    <li>Budowanie wielu kontenerów na raz</li>
+                    <li>Wolumeny</li>
+                    <li>Siec</li>
+                    <li>Konfiguracja</li>
+                    <li>Czekanie na zależności i healthcheck</li>
+                  </ul>
+                </li>
+                <li>
+                  5. Bezpieczeństwo obrazów
+                  <ul>
+                    <li>Po co dlaczego</li>
+                    <li>Best practices</li>
+                  </ul>
+                </li>
+                <li>
+                  6. Narzedzia i mozliwosci
+                  <ul>
+                    <li>Pisanie w dockerze</li>
+                    <li>Testowanie</li>
+                  </ul>
+                </li>
+                <li>
+                  7. Rejestry
+                  <ul>
+                    <li>self-hosted</li>
+                    <li>Docker hub</li>
+                    <li>Github</li>
+                  </ul>
+                </li>
+                <li>
+                  8. Narzędzia
+                  <ul>
+                    <li>Lint</li>
+                    <li>Security tools</li>
+                    <li>Dobre praktyki w CI/CD</li>
+                  </ul>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -183,17 +288,28 @@
           <div class="row clearfix">
             <!--News Block-->
             <div class="news-style-one col-md-4 col-sm-6 col-xs-12">
-              <div class="inner-box wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
+              <div
+                class="inner-box wow fadeInLeft"
+                data-wow-delay="600ms"
+                data-wow-duration="1500ms"
+              >
                 <figure class="image-box">
-                  <img loading="lazy" class="lazyload" data-src="images/gutek.jpg" alt="Jakub Gutkowski"></figure>
+                  <img
+                    loading="lazy"
+                    class="lazyload"
+                    data-src="images/gutek.jpg"
+                    alt="Jakub Gutkowski"
+                  />
+                </figure>
                 <div class="lower-content">
                   <h3>Jakub Gutkowski</h3>
                   <div class="text">
-                    <p>Tata, mąż, blogger, programista, podcaster i pasjonat. Założyciel i jeden z organizatorów
-                      devWarsztatów.
-                      <br />Z Kubernetes związany zawodowo i prywatnie. Uwielbia bawić się nowościami, poznawać nowe
-                      języki i biblioteki,
-                      chodzić na konferencje, poznawać nowych ludzi, pomagać innym.
+                    <p>
+                      Tata, mąż, blogger, programista, podcaster i pasjonat.
+                      Założyciel i jeden z organizatorów devWarsztatów. <br />Z
+                      Kubernetes związany zawodowo i prywatnie. Uwielbia bawić
+                      się nowościami, poznawać nowe języki i biblioteki, chodzić
+                      na konferencje, poznawać nowych ludzi, pomagać innym.
                       <br />Microsoft MVP w kategorii Developer Technologies.
                     </p>
                   </div>
@@ -201,36 +317,62 @@
               </div>
             </div>
             <div class="news-style-one col-md-4 col-sm-6 col-xs-12">
-              <div class="inner-box wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
+              <div
+                class="inner-box wow fadeInLeft"
+                data-wow-delay="600ms"
+                data-wow-duration="1500ms"
+              >
                 <figure class="image-box">
-                  <img loading="lazy" class="lazyload" data-src="images/lukasz.jpg" alt="Łukasz Kałużny"></figure>
+                  <img
+                    loading="lazy"
+                    class="lazyload"
+                    data-src="images/lukasz.jpg"
+                    alt="Łukasz Kałużny"
+                  />
+                </figure>
                 <div class="lower-content">
                   <h3>Łukasz Kałużny</h3>
                   <div class="text">
-                    <p>Inżynier, architekt, technology leader, konsultant, geek i ojciec dwójki maluchów.
-                      <br />Pasjonat chmury publicznej oraz szeroko pojętej nowoczesnej architektury w IT oraz
-                      hipsterskich technologii, które
-                      dopiero się pojawiają.
-                      <br />Z Kubernetes i kontenerami związany od dawna (pierwszy raz publicznie nakłaniał do nauki tego
-                      już w 2014 roku!).
-                      <br />Microsoft MVP w kategorii Microsoft Azure.
+                    <p>
+                      Inżynier, architekt, technology leader, konsultant, geek i
+                      ojciec dwójki maluchów. <br />Pasjonat chmury publicznej
+                      oraz szeroko pojętej nowoczesnej architektury w IT oraz
+                      hipsterskich technologii, które dopiero się pojawiają.
+                      <br />Z Kubernetes i kontenerami związany od dawna
+                      (pierwszy raz publicznie nakłaniał do nauki tego już w
+                      2014 roku!). <br />Microsoft MVP w kategorii Microsoft
+                      Azure.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
             <div class="news-style-one col-md-4 col-sm-6 col-xs-12">
-              <div class="inner-box wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
+              <div
+                class="inner-box wow fadeInLeft"
+                data-wow-delay="600ms"
+                data-wow-duration="1500ms"
+              >
                 <figure class="image-box">
-                  <img loading="lazy" class="lazyload" data-src="images/stapp.jpg" alt="Piotr Stapp"></figure>
+                  <img
+                    loading="lazy"
+                    class="lazyload"
+                    data-src="images/stapp.jpg"
+                    alt="Piotr Stapp"
+                  />
+                </figure>
                 <div class="lower-content">
                   <h3>Piotr Stapp</h3>
                   <div class="text">
-                    <p>Programista, inżynier, rzemieślnik, projektant oraz ojciec bliźniaków.<br />
-                      Wierzy w ludzi, a nie w papiery - jest wyznawcą DevOps i wszelkiej automatyzacji.
+                    <p>
+                      Programista, inżynier, rzemieślnik, projektant oraz ojciec
+                      bliźniaków.<br />
+                      Wierzy w ludzi, a nie w papiery - jest wyznawcą DevOps i
+                      wszelkiej automatyzacji.
                       <br />Od czerwca 2018 znany jako "główny" dotnetomaniak.
-                      <br />Z Kubernetes korzysta na co dzień w pracy i w domu (nie pytaj po co).
-                      <br />Microsoft MVP w kategorii Developer Technologies.
+                      <br />Z Kubernetes korzysta na co dzień w pracy i w domu
+                      (nie pytaj po co). <br />Microsoft MVP w kategorii
+                      Developer Technologies.
                     </p>
                   </div>
                 </div>
@@ -312,6 +454,10 @@
         </div>
       </section>
       <footer class="footer-sticky">
+        <div class="container">
+          <span class="">Przedsprzedaż kończy się <span id="countdown" class="text-nowrap">22 października 22:22</span>
+            <a href="https://poznajkubernetes.pl/dolacz" class="theme-btn btn-style-dolacz">DOŁĄCZ!</a></span>
+        </div>
       </footer>
     </div>
     <!--End pagewrapper-->
@@ -328,7 +474,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.6/owl.carousel.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.0.1/wow.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.0/jquery.validate.min.js"></script>
-    <script src="js/script.js?v=14"></script>
+    <script src="js/script.js?v=15"></script>
 
     <link
       rel="stylesheet"

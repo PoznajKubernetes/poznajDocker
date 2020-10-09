@@ -381,7 +381,7 @@ function getParameterByName(name, url) {
       $("#agenda-menu").click();
       return false;
     });
-    var yourDateToGo = new Date("2020-03-20T21:00:00+01:00"); //new Date(); //here you're making new Date object
+    var yourDateToGo = new Date("2020-10-22T22:22:00+01:00"); //new Date(); //here you're making new Date object
     //yourDateToGo.setDate(yourDateToGo.getDate() + 1); //your're setting date in this object 1 day more from now
     //you can change number of days to go by putting any number in place of 1
     var timer = function () {
@@ -410,8 +410,8 @@ function getParameterByName(name, url) {
 
       //console.log(days + "d " + hours + "h " + minutes + "m " + seconds + "s");
       try {
-        document.getElementById("countdown").innerHTML = end;
         document.getElementById("countdown2").innerHTML = end;
+        document.getElementById("countdown").innerHTML = end;
         document.getElementById("countdown3").innerHTML = end;
       } catch {
       }
