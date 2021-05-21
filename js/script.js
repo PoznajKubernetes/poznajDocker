@@ -381,7 +381,7 @@ function getParameterByName(name, url) {
       $("#agenda-menu").click();
       return false;
     });
-    var yourDateToGo = new Date("2021-02-03T20:21:00+01:00"); //new Date(); //here you're making new Date object
+    var yourDateToGo = new Date("2021-06-16T20:21:00+02:00"); //new Date(); //here you're making new Date object
     //yourDateToGo.setDate(yourDateToGo.getDate() + 1); //your're setting date in this object 1 day more from now
     //you can change number of days to go by putting any number in place of 1
     var timer = function () {
